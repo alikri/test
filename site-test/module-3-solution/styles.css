@@ -80,6 +80,7 @@ h1 {
     #nav-list>li>a>div {
         border-bottom: 1px solid gray;
         letter-spacing: .1em;
+        transition: border .2s linear;
 
     }
 
