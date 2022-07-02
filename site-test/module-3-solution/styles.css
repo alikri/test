@@ -11,7 +11,13 @@ body {
 }
 
 #nav-list > li > a {
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+#nav-list > li > a  {
     transition: all .2s linear;
+    
 }
 
 #nav-list > li > a:hover {
