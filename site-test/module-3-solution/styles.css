@@ -27,11 +27,14 @@ h1 {
 }
 
 #main-content p {
+    font-size: 2rem;
     line-height: 1.5;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     text-align: justify;
-
+    
 }
+
+
 
 .main hr {
     border: 0;
@@ -43,11 +46,37 @@ h1 {
 }
 
 
-
 #main-content div {
     padding: 15px;
     background-color: rgb(236, 236, 236);
 }
+
+.main-text {
+    position: relative;
+}
+
+.return-btn {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+#main-content div .return-btn a {
+    text-decoration: none;
+    color:rgb(31, 23, 23);
+}
+
+#main-content div .return-btn {
+    padding: 5px 10px;
+    transition: all .2s linear;
+}
+
+#main-content div .return-btn:hover {
+    box-shadow: 0 0 2px rgb(75, 75, 75);
+}
+
 
 
 /******  MEDIUM AND AFTER ******/
@@ -89,7 +118,14 @@ h1 {
 
     }
 
-
+    #main-content div .return-btn {
+       position: absolute;
+       text-align: center;
+       left: 35%;
+       right: 35%;
+       bottom: 10px;
+        
+    }
 
 
 }
