@@ -42,35 +42,24 @@ body {
 #nav-list #first-a:after {  /* chicken */
     width: 50%;
     right: 20px;
-    opacity: 0;
-}
-
-#nav-list #first-a:hover:after {
-    opacity: 1;
+    
 }
 
 
 #nav-list #second-a:after { /* beef */
     width: 40%;
     right: 18px;
-    opacity: 0;
 }
-
-#nav-list #second-a:hover:after {
-    opacity: 1;
-}
-
 
 #nav-list #third-a:after {  /* sushi */
     width: 50%;
     right: 5px;
-    opacity: 0;
+   
 }
 
-#nav-list #third-a:hover:after {
+#nav-list .nav-link:hover:after {
     opacity: 1;
 }
-
 #third-a {
     padding-right: 0;
 }
@@ -138,6 +127,9 @@ body {
     #nav-list li a:hover {
         color: #333;
         border-bottom: 1px solid #333;
+    }
+    #nav-list .nav-link:hover:after {
+       display: none;
     }
 
     #third-a {
